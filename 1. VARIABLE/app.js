@@ -1,24 +1,24 @@
-// // // // // alert("Hello World");
-// // // // // var FullName = "Syed zohaib Umer";
-// // // // // age = 21;
-// // // // // isfolllow = true;
-// // // // // x = null;
-// // // // // console.log(FullName);
-// // // // // console.log(age);
-// // // // // console.log(isfolllow0);
-// // // // // console.log(x);
+//alert("Hello World");
+///  var FullName = "Syed zohaib Umer";
+// age = 21;
+// isfolllow = true;
+// x = null;
+// console.log(FullName);
+// console.log(age);
+// console.log(isfolllow0);
+// console.log(x);
 
-// // // // var a = 10;
-// // // // console.log(a);
-// // // // a = "Hello World";
-// // // // console.log(a);
-// // // let b = "zohaib";
-// // // b = "4";
-// // // {
-// // //     let  b = "syed"
-// // //     console.log(b);
-// // // }
-// // // console.log(b);
+ // // var a = 10;
+ // // console.log(a);
+ // // a = "Hello World";
+ // // console.log(a);
+ // let b = "zohaib";
+ // b = "4";
+ // {
+ //     let  b = "syed"
+ //     console.log(b);
+ // }
+ // console.log(b);
 // // const b = "1947"
 // // b = "1948"
 // // console.log(b);
@@ -96,6 +96,81 @@
 //  console.log(addnum2);
 
 //4: VARIABLE MATHS EXPRESSION/UNFAMILIAR OPERATORS
- var num = 2;
- var newNum = num++;
- console.log(newNum);
+// var num = 2;
+// var newNum = num++;
+// console.log(newNum);
+// console.log(num);
+
+// var num = 2;
+// var newNum = ++num;
+// console.log(newNum);
+
+// var num = 3;
+// var newNum = num--
+// console.log(newNum);
+
+// var num = 5;
+// var newNum = num--;
+// console.log(newNum);
+// console.log(num);
+
+// //  Example of book
+// var num = 1;
+// var newNum = ++num;
+// console.log(newNum);
+
+// var num = 5;
+// var newNum = --num;
+// console.log(newNum);
+
+// TOPIC: MATTH EXPRESSION ELIMINATING AMBIGUITY
+var totalCost = 1 + 3 * 4;
+console.log(totalCost);
+var totalCost = 1 + (3 * 4);
+console.log(totalCost);
+var totalCost = (1 + 3) * 4;
+console.log(totalCost);
+
+
+var resultOfComputation = (2 * 4) * 4 + 2;
+console.log(resultOfComputation);
+resultOfComputation = (2 * 4) * (4 + 2);
+console.log(resultOfComputation);
+// alert(resultOfComputation);
+
+// TOPIC:CONCATENATING TEXT STRINGS:
+// var firstName = "Zohaib";
+// alert("Hello " + firstName)
+
+// alert("welcomeMessage");
+// var message = "welcome to website";
+// // alert (message);
+
+// firstName =("zohaib");
+// lastname =("umer");
+// var fullname = firstName + " " + lastname;
+// // alert(fullname);
+// console.log(fullname);
+// userName ="zohaib";
+// window.alert("Thanks, " + userName + "!");
+// var message = "Thanks, ";
+//  var banger = "!";
+//  alert(message + userName + banger);
+
+//  book example
+
+// var greeting = "Welcome";
+// var firstName = " Zohaib";
+// var message = ", please check your order:";
+// var welcomeMessage = greeting + firstName + message;    
+// alert(welcomeMessage);
+// alert("2" + "2");
+// alert("2 plus 2 equals " + 2 + 2);
+
+TOPIC: prompt
+
+// var spec = prompt("Your species?", "human");
+ var question = "your name";
+ var defaultAnswer = "";
+ var spec = prompt(question, defaultAnswer);
+ console.log(spec);
