@@ -4,8 +4,29 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>javascript-Dom & Bom</title>
+    <style>
+        .parent {
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            align-items: center;
+            background-color: #f0f0f0;
+            padding: 20px;
+        }
+        .child {
+            height: 40px;
+            width: 60px;
+            border: 2px solid black;
+            display: flex;
+            padding: 20px;
+            justify-content: center;
+            text-align: center; 
+            margin: 10px;
+            flex-grow: 1; 
+        }
+    </style>
 </head>
-<body>
+<body >
     <div id="class1" >
         Say hi
         <p id="class2"></p>
@@ -13,6 +34,20 @@
         <p id="class4"></p>
         <p id="class5"></p>
     </div>
+<div></div>
+<h1 id="mainhead">Dom content</h1>
+<h2 id="container">Hello I'm Zohiab</h2>
+
+<div class="parent">
+    <div class="child">Monday</div>
+    <div class="child">Tuesday</div>
+    <div class="child">Wednesday</div>
+    <div class="child">Thursday</div>
+    <div class="child">Friday</div>
+</div>
+
+
     <script src="app.js" ></script>
+    <script src="Test.js" ></script>
 </body>
 </html>

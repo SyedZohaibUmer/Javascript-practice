@@ -61,11 +61,47 @@ setInterval(function () {
     if (width === "100%") {
         persontage.style.width = "10%";
     } else {
-        
+
         width = + width.replace("%", "");
-        persontage.style.width = width+ 10 + "%";
+        persontage.style.width = width + 10 + "%";
     }
 
 
 }, 500);
 
+let myhead = document.getElementById("mainhead");
+myhead.innerHTML += "Hello World";
+console.log(myhead.innerHTML);
+
+let myhead1 = document.getElementById("mainhead");
+  let originalText = myhead.innerHTML;
+  myhead.innerHTML = originalText + " Hello World";
+  console.log(myhead1.innerHTML);
+
+  //Replace Example//
+
+  let mycontainer = document.getElementById("container");
+  
+  let originalText2 = mycontainer.innerHTML;
+//   mycontainer.innerHTML = originalText2.replace(");
+
+//   mycontainer.innerHTML = "<h1>Hello World</h1>";
+  mycontainer.style.backgroundColor = "green";  
+  mycontainer.style.color = "black";
+  setInterval(function (){
+    if (mycontainer.innerHTML === originalText2){
+        mycontainer.innerHTML === originalText2.replace; "Hello World"; "Goodbye World";
+    } else {
+        
+    }
+    
+  }, 500);
+
+// let parent = document.querySelector(".parent");
+// console.log(parent);
+// console.log(parent.children);
+// console.log(parent.children[0].innerHTML);
+//  let weekdays = parent.children[0];
+//  weekdays.style.backgroundColor = "red";
+//  weekdays.style.color = "white";
+//  console.log(weekdays);
